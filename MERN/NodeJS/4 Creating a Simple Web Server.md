@@ -61,3 +61,11 @@ if (pathName === "/api") {
 - `res.writeHead()` is used to send a status code and headers to the client.
 - `res.end()` is used to send the response body to the client.
 - `__dirname` is a global variable that contains the directory name of the current module.
+
+## Building the template html
+
+...
+
+## Filling the template html
+
+Reffering to the code.

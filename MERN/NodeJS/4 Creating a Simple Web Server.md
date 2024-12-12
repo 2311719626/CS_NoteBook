@@ -69,3 +69,9 @@ if (pathName === "/api") {
 ## Filling the template html
 
 Reffering to the code.
+
+## Parsing the URL
+
+```javascript
+const { query, pathname } = url.parse(req.url, true);
+```

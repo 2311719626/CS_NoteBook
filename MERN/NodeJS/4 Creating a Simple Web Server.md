@@ -75,3 +75,12 @@ Reffering to the code.
 ```javascript
 const { query, pathname } = url.parse(req.url, true);
 ```
+
+Using `slugify()` to generate a slug from the product name.
+
+```javascript
+const slug = slugify(productName,{
+  // Some options
+});
+```
+
